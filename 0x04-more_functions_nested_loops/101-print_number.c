@@ -8,6 +8,7 @@
  */
 
 void print_number(int n)
+
 {
 
 	unsigned int k = n;
@@ -16,7 +17,7 @@ void print_number(int n)
 	{
 	n *= -1;
 	k = n;
-	_putchar('_');
+	_putchar('-');
 	}
 	k /= 10;
 	if (k != 0)
